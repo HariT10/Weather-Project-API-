@@ -1,0 +1,72 @@
+<!-- live server extension-->
+<!--this is a declaration, that tells the web browser that this is HTML5-->
+<!DOCTYPE html>
+<!-- TAG to indicate that this is the beggeineg of html document-->
+<html lang="en">
+
+<!-- this part contains meta information about the document-->
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scal=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>OpenAPI</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+
+<body>
+
+    <header>
+        <h1 class="title">Hari Weather Network</h1>
+        <img class="weather-icon" src="overcast.png"/>
+        <nav>
+            <ul>
+                <li><a href="#home" >Home</a></li>
+                <li><a href="subpage1.html">Hourly Weather</a></li>
+                <li><a href="subpage2.html">3 Day Weather</a></li>
+                <li><a href="subpage3.html">7 Day Weather</a></li>
+                <li><a href="subpage4.html">14 Day Weather</a></li>
+                <li><a href="subpage2.html">Radar</a></li>
+
+            </ul>
+        </nav>
+    </header>
+
+    
+
+    <!-- class atribute set to "input"-->
+    <div class="input">
+
+        <!-- creates a text input field -->
+        <input type="text" class="inputValue" placeholder="Enter City Name">
+
+        <!-- creates a "submit" button-->
+        <input type="submit" value="Submit" class="button">   
+
+    </div>
+
+
+    <!-- class atribute set to display-->
+    <div class="display">
+
+        <h1 class="name"> </h1>
+
+        <p class="desc"> </p>
+
+        <p class="temp"></p>
+         
+    </div>
+
+    <!--
+    <footer>
+        <p>&copy; 2023 HariWeather. All Rights Reserved.</p>
+    </footer>
+    -->
+
+
+    <script src="app.js"> </script>
+
+</body>
+
+
+</html>

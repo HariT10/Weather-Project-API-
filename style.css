@@ -1,0 +1,159 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /*
+    background-color: #faf0c0;
+    */
+    background-color:#b6ecff;
+}
+
+
+body{
+    font-family: "Nunito", sans-serif;
+}
+
+/* the tile words */
+.title{
+    position: absolute;
+    font-family: "Impact", sans-serif;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+}
+
+.subHeading{
+    position: absolute;
+    font-family: "Impact", sans-serif;
+    top: 10px;
+    left: 10px;
+    margin: 0;
+    padding: 0;
+    margin-top: 20px;
+
+}
+
+
+
+
+.input{
+    text-align: center;
+    margin: 100px 0;
+}
+
+input[type="text"]{
+
+    height: 50px;
+    width: 600px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif; 
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    padding: 10px 10px;
+    
+}
+
+
+input[type="submit"]{
+
+    height: 50px;
+    width: 100px;
+    background: #e7e7e7;
+    font-family: "Nunito", sans-serif; 
+    font-weight: bold;
+    font-size: 20px;
+    border: none;
+    border-radius: 2px;
+    transition: background-color 0.3s ease;
+}
+
+input[type="submit"]:hover{
+    background-color: #F0F8FF;
+    cursor: pointer;
+}
+
+.display{
+    text-align: center;
+    border: 1px solid #ccc;
+    padding: 20px;
+    margin-top: 20px;
+    max-width: 300px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.desc{
+    font-size: 20px;
+    text-transform: capitalize;
+    
+}
+
+.temp{
+    font-size: 55px;
+}
+
+
+.weather-image{
+    max-width: 100px;
+    height: auto;
+    display: block;
+    margin-top: 10px;
+
+}
+
+
+.weather-icon{
+    width: 150px;
+    height: 150px;
+    text-align: right;
+    margin-left: 300px;
+    margin-top: -20px;
+
+}
+
+
+/* for the header titles */
+
+nav ul{
+    list-style: none;
+}
+
+
+nav ul li {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 25px;
+    display: inline; /* Display navigation items inline */
+    margin-right: 10px; /* Add spacing between navigation items */
+}
+
+nav ul li a{
+    margin-left: 20px;
+    text-decoration: none; 
+    color: black; 
+}
+
+
+/* FOR header title animations */
+
+nav ul li a {
+    text-decoration: none; 
+    color: #333; /* Default color */
+    transition: background-color 0.3s ease; /* Smooth transition */
+    padding: 5px 10px; 
+}
+
+
+nav ul li a:hover {
+    background-color: #f0f0f0; 
+    color: #000; 
+}
+
+
+
+
+
