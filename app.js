@@ -7,11 +7,11 @@ var desc = document.querySelector('.desc');
 var temp = document.querySelector('.temp');
 
 button.addEventListener('click', function(){
-    var apiKey = '71688fdf06bb7507d22d9420711f645b'; // Replace 'YOUR_API_KEY' with your actual API key
+    //var apiKey = '71688fdf06bb7507d22d9420711f645b'; // Replace 'YOUR_API_KEY' with your actual API key
     var cityName = inputValue.value;
 
     // Assuming the API endpoint expects the city name as part of the query
-    var apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
+    //var apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${cityName}&appid=${apiKey}`;
 
     
 
